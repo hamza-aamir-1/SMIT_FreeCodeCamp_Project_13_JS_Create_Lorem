@@ -60,6 +60,18 @@ section > h3{
     background-color: cornflowerblue;
     color: black;
 }
+.lorem-text{
+    width: 65%;
+    margin: 20px 0px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+.result{
+    margin-bottom: 2rem;
+}
 @media screen and (max-width: 700px){
     section > h3{
         font-size: 1.7rem;
@@ -73,6 +85,12 @@ section > h3{
         margin-right: 5px;
     }
     .generate-btn{
+        font-size: 1rem;
+    }
+    .lorem-text{
+        width: 90%;
+    }
+    .result{
         font-size: 1rem;
     }
 }
