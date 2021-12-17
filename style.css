@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 15);
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+section > h3{
+    color: white;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.lorem-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-form > label{
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+#amount{
+    width: 35px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    padding: 4px 7px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 88);
+    color: white;
+    margin-right: 7px;
+}
+#amount::placeholder{
+    color: white;
+}
+.generate-btn{
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 88);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition-duration: 0.4s;
+}
+.generate-btn:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+@media screen and (max-width: 700px){
+    section > h3{
+        font-size: 1.7rem;
+    }
+    .lorem-form > label{
+        font-size: 1.1rem;
+    }
+    #amount{
+        width: 30px;
+        font-size: 1.1rem;
+        margin-right: 5px;
+    }
+    .generate-btn{
+        font-size: 1rem;
+    }
+}
